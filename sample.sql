@@ -25,8 +25,6 @@ SELECT NOW();  -- This will show the current date --
 DROP TABLE Students;  -- This will delte the table---
 SHOW TABLES;  -- list all the table---
 ALTER TABLE student ADD hel VARCHAR(100);  -- Used to create a column in the table--
-DESCRIBE student;
 ALTER TABLE student DROP hel;  -- Used to remove column in the table
-DESCRIBE student;
 INSERT INTO student (name,age,salary) VALUES ("JOHN",18,232.23); -- insert data into the table --
 SELECT * FROM student;  -- list all the data in the student table --
