@@ -55,8 +55,7 @@ INSERT INTO Student (name, age, salary) VALUES ("Tina", 23, 3000.90);
 INSERT INTO student (name,age,salary) VALUES ("JOHN",18,232.23);
 
 UPDATE student SET name="sujesh" WHERE age=21;  -- update column if condition is meet
-
-
+DELETE FROM student where name="sujesh"; -- delete column from the table if the condition is meet
 
 
 
